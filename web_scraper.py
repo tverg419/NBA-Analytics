@@ -18,3 +18,4 @@ game_log = [[td.getText() for td in rows[i].findAll('td')] for i in range(len(ro
 games = pd.DataFrame(game_log, columns = headers)
 
 games.to_csv(r'C:\Users\verga\Documents\Projects\nba_analytics\bkn_2019-2020.csv')
+=======
